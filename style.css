@@ -78,6 +78,14 @@ span{
     width: 70%;
     height: auto;
 }
+#recipe-section h1{
+    text-align: center;
+}
+#recipe-section .section-content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
 .recipe-item{
     background-color:white;
     width: 33%;
