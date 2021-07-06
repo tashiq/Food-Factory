@@ -1,8 +1,151 @@
+/*bacground Images*/
+#intro-section{
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+
+}
+#about-section{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-image: linear-gradient(30deg, black, rgb(90, 77, 77), rgb(53, 32, 143));
+    color: white;
+}
+#app-section{
+    background-image: linear-gradient(45deg, rgb(146, 141, 141), white);
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+}
+#product-section{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+/*bacground image ends here*/
 
 body{
     padding: 0;
     margin: 0;
 }
 span{
-    color:rgb(33, 83, 190)
+    color:rgb(235, 32, 126)
+}
+#header-opa-text{
+    position: absolute;
+    opacity: 0.4;
+    color: rgb(223, 41, 41);
+    font-size: 2em;
+    transform: rotate(90deg);
+    top: 20%;
+    left: 80%;
+}
+.section-title{
+    font-size: 1.7em;
+    padding-left: 2%;
+}
+.section-content{
+    font-size: 1.4em;
+    padding-left: 2%;
+}
+.link{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(30deg, rgb(74, 57, 122), rgb(45, 106, 185), rgb(156, 186, 243));
+    border-radius: 12px;
+}
+.btn:hover{
+    box-shadow: 3px 4px 5px grey;
+}
+.flexible{
+    display: flex;
+    padding: 10px 14px;
+    margin: 15px;
+}
+
+.half-width{
+    width: 50%;
+    padding: 10px;
+    margin: 12px;
+}
+.half-width img{
+    width: 70%;
+    height: auto;
+}
+.recipe-item{
+    background-color:white;
+    width: 33%;
+    margin-left: 12px;
+    padding: 10px;
+    border: 4px solid rgb(126, 121, 121);
+    border-radius: 15px;
+    box-shadow: 5px 3px 4px rgb(187, 186, 186);
+}
+.opa-text{
+    position: absolute;
+    opacity: .4;
+    left: 45%;
+    color: rgb(89, 169, 243);
+    font-size: 40px;
+}
+.recipe-item img{
+    max-width: 100%;
+}
+.round-image{
+    margin: 12px;
+    width: 100%;
+}
+.recipe-item img{
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+}
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+#app-img{
+    height: 70%;
+    width: auto;
+    margin:0;
+    padding: 0;
+}
+.app-store{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+#media-section .recipe-item{
+    border: 0px;
+    text-align: center;
+    font-size: 1.2em;
+}
+#media-section span{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+.one-fourth{
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+}
+#product-section{
+    text-align: center;
+}
+#product-section img{
+    max-width: 100%;
+}
+#app-section .btn{
+    background-image: linear-gradient(rgb(119, 112, 112), black);
 }
