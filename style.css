@@ -102,15 +102,14 @@ span{
     color: rgb(89, 169, 243);
     font-size: 40px;
 }
-.recipe-item img{
-    max-width: 100%;
-}
+
 .round-image{
     margin: 12px;
     width: 100%;
 }
 .recipe-item img{
     border-radius: 15px;
+    max-width: 100%;
 }
 footer{
     text-align: center;
